@@ -1,1 +1,1 @@
-## Movie Recommendation System
+## E-Commerce Product Recommendation System
