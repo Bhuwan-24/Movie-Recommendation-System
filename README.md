@@ -2,7 +2,7 @@
 
 click to view: https://huggingface.co/spaces/Bhuwan-24/E-commerce_Recommender
  
-A content-based product recommendation system built on 117k+ Amazon products. This was a personal project to learn how real recommendation systems work — from messy raw data all the way to a deployed web app.
+A content-based product recommendation system built on 117k+ Amazon products. This was a personal project to learn how real recommendation systems work from messy raw data all the way to a deployed web app.
  
 
  
@@ -10,7 +10,7 @@ A content-based product recommendation system built on 117k+ Amazon products. Th
  
 Given a product title and category, it finds the most similar products from a dataset of 117,000+ Amazon listings and returns them ranked by similarity score.
  
-The dataset had 24,805 products with no category label. Instead of just dropping them, I trained a text classifier to predict the missing categories — which was honestly the more interesting part of the project.
+The dataset had 24,805 products with no category label. Instead of just dropping them, I trained a text classifier to predict the missing categories which was honestly the more interesting part of the project.
  
 
  
@@ -57,7 +57,7 @@ The vectorizers and product matrix are saved with `joblib` so the app loads them
  
 ### Part 3 — The Streamlit app
  
-Pretty straightforward — text input for the query, optional category field, a slider for how many results you want, and a table showing the results with scores.
+Pretty straightforward text input for the query, optional category field, a slider for how many results you want, and a table showing the results with scores.
  
 
  
