@@ -12,6 +12,7 @@ d_tfidf=jb.load('description.pkl')
 s_v=jb.load('sparse_vectorized_matrix.pkl')
 cleaned_df=jb.load('products.pkl')
 
+
 def similarity_calculate(title="",category="",description="",top_similar=10):
     t_vector = t_tfidf.transform([title.lower()]) * tw
     c_vector = c_tfidf.transform([category.lower()]) * cw
